@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "rabbot"
-version = "0.2.0"
+version = "0.3.0"
 description = "A small utility for testing RabbitMQ connections."
 readme = "README.md"
 authors = ["Derek Sudduth <derek.sudduth@gmail.com>"]
