@@ -2,4 +2,4 @@
 Contains the application's version number for reference.
 """
 
-__version__ = "0.3.1"
+__version__ = "0.3.2"
