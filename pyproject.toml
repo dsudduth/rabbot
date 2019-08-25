@@ -4,6 +4,8 @@ version = "0.3.2"
 description = "A small utility for testing RabbitMQ connections."
 readme = "README.md"
 authors = ["Derek Sudduth <derek.sudduth@gmail.com>"]
+repository = "https://github.com/dsudduth/rabbot"
+homepage = "https://github.com/dsudduth/rabbot"
 license = "MIT"
 
 keywords = ["tools", "rabbitmq"]
