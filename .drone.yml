@@ -7,7 +7,7 @@ platform:
 
 steps:
   - name: build-rabbot
-    image: 3.7.4-stretch
+    image: python:3.7.4-stretch
     commands:
       - pip install poetry
       - poetry install
