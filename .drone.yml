@@ -1,0 +1,17 @@
+kind: pipeline
+name: rabbot
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+  - name: build-rabbot
+    image: 3.7.4-stretch
+    commands:
+      - pip install poetry
+      - poetry install
+  when:
+    event:
+      - push
+      - pull_request
