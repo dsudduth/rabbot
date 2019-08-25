@@ -8,9 +8,15 @@ platform:
 steps:
   - name: build-rabbot
     image: python:3.7.4-stretch
+    environment:
+      USERNAME:
+        from_secret: pypi_user
+      PASSWORD:
+        from_secret: pypi_pass
     commands:
       - pip install poetry
-      - poetry install
+      - poetry build
+      - poetry publish -u $USERNAME -p $PASSWORD
     when:
       event:
         - push
