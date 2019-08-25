@@ -1,10 +1,23 @@
-# rabbot
+# Rabbot
 
 A utility for validating connections to RabbitMQ servers.
 
-## Getting Started
+## Installing Rabbot
 
-**COMING SOON**
+```bash
+pip install rabbot
+```
+
+## Development
+
+This project relies on [Poetry](https://poetry.eustace.io/) for development, packaging, and publishing. You will need to have this tool installed on your machine before you can properly develop against Rabbot.
+
+```bash
+curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
+```
+
+Please see the [installation](https://poetry.eustace.io/docs/#installation) guide for other options.
+
 
 ## Contributing
 
