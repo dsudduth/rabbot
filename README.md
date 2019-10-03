@@ -1,5 +1,7 @@
 # Rabbot
 
+![Rabbot Logo](./assets/rabbot.png "Rabbot")
+
 [![Build Status](https://cloud.drone.io/api/badges/dsudduth/rabbot/status.svg)](https://cloud.drone.io/dsudduth/rabbot)
 
 A utility for validating connections to RabbitMQ servers.
